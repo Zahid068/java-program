@@ -6,23 +6,23 @@ class zahid{
         double num1 = sc.nextDouble();
 
         // System.out.println("Enter operator +,-,*,/ ");
-        char operation = sc.next().charAt(0);
+        char input = sc.next().charAt(0);
         //System.out.println("Enter Second Number");
         double num2 = sc.nextDouble();
         double result = 0;
-        if (operation == '+') {
+        if (input == '+') {
             result = num1 + num2;
-            System.out.println(num1 + " " + operation + " " + num2 + " " + " = " + result);
+            System.out.println(num1 + " " +input+ " " + num2 + " " + " = " + result);
         }
-        else if (operation == '-') {
+        else if (input == '-') {
             result = num1 - num2;
-            System.out.println(num1 + " " + operation + " " + num2 + " " + " = " + result);
-        } else if (operation == '*') {
+            System.out.println(num1 + " " + input + " " + num2 + " " + " = " + result);
+        } else if (input == '*') {
             result = num1 * num2;
-            System.out.println(num1 + " " + operation + " " + num2 + " " + " = " + result);
-        } else if (operation == '/') {
+            System.out.println(num1 + " " + input + " " + num2 + " " + " = " + result);
+        } else if (input == '/') {
             result = num1 / num2;
-            System.out.println(num1 + " " + operation + " " + num2 + " " + " = " + result);
+            System.out.println(num1 + " " + input + " " + num2 + " " + " = " + result);
         } else {
 
             System.out.println("Invalid choice");
